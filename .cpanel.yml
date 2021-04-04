@@ -1,0 +1,5 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/rodddesi/public_html/ta-dev/
+- /bin/cp r * $DEPLOYPATH?
